@@ -1,19 +1,19 @@
-const CHANGE = require('../actions/details').CHANGE
+const CHANGE = require('../actions/details').CHANGE;
 
 const defaultState = {
-  name: 'Sam',
-  surname: 'Fairfax',
-  email: 'sam.fairfax@fairfax.com',
-  phone: '02 9282 2833',
-  houseNumber: '1',
-  street: 'Darling Island Road',
-  suburb: 'Pyrmont',
-  state: 'NSW',
-  postcode: '2009',
-  country: 'Australia',
+  name: '',
+  surname: '',
+  email: '',
+  phone: '',
+  houseNumber: '',
+  street: '',
+  suburb: '',
+  state: '',
+  postcode: '',
+  country: '',
 }
 
-module.exports = function(state = defaultState, { type, payload }) {
+module.exports = function (state = defaultState, { type, payload }) {
   switch(type) {
     case CHANGE:
       return {

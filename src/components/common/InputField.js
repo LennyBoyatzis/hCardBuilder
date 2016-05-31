@@ -1,10 +1,10 @@
-const React = require('react')
+const React = require('react');
 
-module.exports = function({ updateValue }) {
+module.exports = function ({ updateValue, field, position, spacedLabel }) {
   return (
-    <div className="input">
-      <label className="input-label">Label</label>
-      <input className="input-field" onChange={e => updateValue(e.target.value)} />
+    <div className={`input ${position}`}>
+      <label className="input-label">{field === 'name' ? spacedLabel : field}</label>
+      <input className="input-field" onChange={e => updateValue(field, e.target.value)} />
     </div>
-  )
-}
+  );
+};

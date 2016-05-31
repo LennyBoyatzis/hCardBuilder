@@ -1,16 +1,16 @@
-const CHANGE = 'CHANGE'
+const CHANGE = 'CHANGE';
 
-const change = function(field, val) {
+const change = (field, val) => {
   return {
     type: CHANGE,
     payload: {
       field,
-      val
+      val,
     }
-  }
-}
+  };
+};
 
 module.exports = {
   change: change,
-  CHANGE: CHANGE
-}
+  CHANGE: CHANGE,
+};

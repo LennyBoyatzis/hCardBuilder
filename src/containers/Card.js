@@ -1,5 +1,5 @@
-const connect = require('react-redux').connect
-const Card = require('../components/Card')
+const connect = require('react-redux').connect;
+const Card = require('../components/Card');
 
 function mapStateToProps(state) {
   return {
@@ -14,6 +14,6 @@ function mapStateToProps(state) {
     postcode: state.details.postcode,
     country: state.details.country,
     avatar: state.details.avatar,
-  }
+  };
 }
-module.exports = connect(mapStateToProps)(Card)
+module.exports = connect(mapStateToProps)(Card);

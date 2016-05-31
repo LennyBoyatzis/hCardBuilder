@@ -1,17 +1,13 @@
 {
   "name": "domain-code-test",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Domain Code Test",
   "main": "entry.js",
   "scripts": {
     "start": "webpack-dev-server --progress --colors",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/xcatliu/react-ie8/issues"
-  },
-  "homepage": "https://github.com/xcatliu/react-ie8#readme",
   "dependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "console-polyfill": "^0.2.2",

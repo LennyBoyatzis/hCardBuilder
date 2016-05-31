@@ -1,7 +1,7 @@
-const React = require('react')
-const Component = require('react').Component
-const Form = require('./containers/Form')
-const Card = require('./containers/Card')
+const React = require('react');
+const Component = require('react').Component;
+const Form = require('./containers/Form');
+const Card = require('./containers/Card');
 
 class App extends Component {
   render() {
@@ -10,8 +10,8 @@ class App extends Component {
         <Form />
         <Card />
       </div>
-    )
+    );
   }
 }
 
-module.exports = App
+module.exports = App;
