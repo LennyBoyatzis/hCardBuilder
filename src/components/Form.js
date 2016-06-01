@@ -52,10 +52,10 @@ module.exports = function ({ change }) {
               </div>
             )
           }
-          <button className="file-upload" >
-            <input type="file" className="file-input" onChange={e => uploadFile(e)} />
+          <label className="file-upload ">
+            <input type="file" className="file-upload file-input" onChange={e => uploadFile(e)} />
             Upload Avatar
-          </button>
+          </label>
           <button className="submit">Create hCard</button>
       </div>
     </div>

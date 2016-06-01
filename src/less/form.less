@@ -36,12 +36,16 @@
   margin-bottom: 5px;
 }
 
-button {
+.buttonStyle() {
   width: 48.5%;
   border: none;
   color: #fff;
   padding: 10px;
   border-radius: 5px;
+}
+
+button {
+  .buttonStyle();
 }
 
 button.submit {
@@ -52,6 +56,10 @@ button.submit {
 .file-upload {
   position: relative;
   overflow: hidden;
+  background-color: grey;
+  display: inline-block;
+  text-align: center;
+  .buttonStyle();
 
   input.file-input {
     position: absolute;

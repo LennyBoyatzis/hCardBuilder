@@ -36,7 +36,7 @@ State tree structure for this project is as follows
 ```
 
 ###Less
-- I used less to take advantage of variables and nested syntax
+- I used less to take advantage of variables, nested syntax, and mixins
 
 ###Webpack
 - Selected webpack to build the project and take advantage of the webpack dev server
